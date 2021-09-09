@@ -5,7 +5,7 @@ if(!isset($_SESSION['userid']) ){
   
     header("location:index.php");
 }
-else if(isset($_SESSION['userid']) && $_SESSION['userid']!=1){
+else if(isset($_SESSION['userid']) && $_SESSION['userid']!=8){
     header("location:index.php");
 }
 else{

@@ -55,7 +55,7 @@ $conn=mysqli_connect($host,$username,$password,$db_name);
   </nav>
   <div class="container">
   <h2>Welcome <?php echo $_SESSION['username']?> </h2>
-  <?php if ($_SESSION['userid']==1){?>
+  <?php if ($_SESSION['userid']==8){?>
     <a href="messages.php" class="btn btn-primary m-3">Messages</a>
   <?php } ?>
   <a href="addcharity.php" class="btn btn-primary m-3">Add Charity</a>
